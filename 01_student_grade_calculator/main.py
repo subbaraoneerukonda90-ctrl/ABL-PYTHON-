@@ -1,12 +1,7 @@
-# Student Marks and Grade Calculator
-# Syllabus topics: variables, input/output, type conversion, lists,
-# for loop, break, arithmetic operators, if-elif-else, string formatting.
-
 marks = []
 total = 0
 valid = True
 
-# Read and validate marks for five subjects.
 for subject in [1, 2, 3, 4, 5]:
     mark = float(input(f"Enter marks for subject {subject} (0-100): "))
 
@@ -19,10 +14,8 @@ for subject in [1, 2, 3, 4, 5]:
     total = total + mark
 
 if valid:
-    # Five subjects are each marked out of 100.
     percentage = total / 5
 
-    # Sample grade boundaries for this assignment.
     if percentage >= 90:
         grade = "A"
     elif percentage >= 80:
