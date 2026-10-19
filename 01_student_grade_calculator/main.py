@@ -1,10 +1,13 @@
 # Student Marks and Grade Calculator
-# Concepts: input/output, type conversion, lists, arithmetic, if-elif-else
+# Syllabus topics used:
+# input/output, variables, type conversion, lists, for loop,
+# arithmetic operators, and if-elif-else decision-making.
 
 def main():
     marks = []
+    total = 0
 
-    # Read marks for five subjects.
+    # Read and validate marks for five subjects.
     for subject in range(1, 6):
         mark = float(input(f"Enter marks for subject {subject} (0-100): "))
 
@@ -13,11 +16,12 @@ def main():
             return
 
         marks.append(mark)
+        total = total + mark
 
-    total = sum(marks)
-    percentage = total / len(marks)
+    # Five subjects are each marked out of 100.
+    percentage = total / 5
 
-    # Grade boundaries used for this assignment.
+    # Sample grade boundaries for this assignment.
     if percentage >= 90:
         grade = "A"
     elif percentage >= 80:
