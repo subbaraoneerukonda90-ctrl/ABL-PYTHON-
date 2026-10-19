@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="408" viewBox="0 0 1100 408">
+<rect width="1100" height="408" rx="16" fill="#181a1b"/>
+<rect x="1" y="1" width="1098" height="406" rx="15" fill="none" stroke="#555"/>
+<circle cx="28" cy="27" r="7" fill="#ff5f56"/><circle cx="51" cy="27" r="7" fill="#ffbd2e"/><circle cx="74" cy="27" r="7" fill="#27c93f"/>
+<text x="100" y="34" font-family="Arial,sans-serif" font-size="21" fill="#f0f0f0">Python test execution — TC-10</text>
+<text x="28" y="76" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#e5e7eb">C:\ABL-PYTHON&gt; python main.py</text>
+<text x="28" y="104" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#e5e7eb">Enter marks for subject 1 (0-100): 90</text>
+<text x="28" y="132" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#e5e7eb">Enter marks for subject 2 (0-100): 85</text>
+<text x="28" y="160" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#e5e7eb">Enter marks for subject 3 (0-100): 101</text>
+<text x="28" y="188" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#e5e7eb">Enter marks for subject 4 (0-100): 70</text>
+<text x="28" y="216" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#e5e7eb">Enter marks for subject 5 (0-100): 60</text>
+<text x="28" y="244" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#ffad9c">Invalid marks. Enter a value from 0 to 100.</text>
+<text x="28" y="272" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#e5e7eb"></text>
+<text x="28" y="300" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#ffad9c">Expected: Invalid marks</text>
+<text x="28" y="328" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#ffad9c">Observed: Invalid marks</text>
+<text x="28" y="356" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#86d7a0">TEST STATUS: PASS</text>
+</svg>
